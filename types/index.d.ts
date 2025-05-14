@@ -35,3 +35,7 @@ interface InterviewCardProps {
   techstack: string[];
   createdAt?: string;
 }
+
+interface TechIconProps {
+  techStack: string[];
+}
