@@ -39,3 +39,15 @@ interface InterviewCardProps {
 interface TechIconProps {
   techStack: string[];
 }
+
+interface SignUpParams {
+  uid: string;
+  name: string;
+  email: string;
+  password: string;
+}
+
+interface SignInParams {
+  email: string;
+  idToken: string;
+}
