@@ -1,3 +1,5 @@
+import { CreateWorkflowDTO } from "@vapi-ai/web/dist/api";
+
 export const dummyInterviews: Interview[] = [
   {
     id: "1",
@@ -134,7 +136,7 @@ export const mappings = {
   "aws amplify": "amplify",
 };
 
-export const generator = {
+export const generator: CreateWorkflowDTO = {
   name: "interview_prep_mock",
   nodes: [
     {
