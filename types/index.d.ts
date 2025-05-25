@@ -66,3 +66,8 @@ interface AgentProps {
   type: "generate" | "interview";
   questions?: string[];
 }
+
+interface GetLatestInterviewsParams {
+  userId: string;
+  limit?: number;
+}
