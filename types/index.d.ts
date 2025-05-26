@@ -28,7 +28,7 @@ interface Feedback {
 }
 
 interface InterviewCardProps {
-  interviewId?: string;
+  id?: string;
   userId?: string;
   role: string;
   type: string;
@@ -59,7 +59,7 @@ interface User {
 }
 
 interface AgentProps {
-  userName: string;
+  userName?: string;
   userId?: string;
   interviewId?: string;
   feedbackId?: string;
@@ -70,4 +70,9 @@ interface AgentProps {
 interface GetLatestInterviewsParams {
   userId: string;
   limit?: number;
+}
+
+interface RouteParams {
+  params: Promise<Record<string, string>>;
+  searchParams: Promise<Record<string, string>>;
 }
