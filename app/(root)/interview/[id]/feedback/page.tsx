@@ -22,7 +22,7 @@ const page = async ({ params }: RouteParams) => {
     <section className="section-feedback">
       <div className='flex flex-row justify-center'>
         <h1 className='text-4xl font-semibold'>
-          Feedback on the Interview -{" "}
+          Feedback on the Interview - {" "}
           <span className='capitalize'>{interview.role}</span> Interview
         </h1>
       </div>
@@ -31,7 +31,7 @@ const page = async ({ params }: RouteParams) => {
           <div className='flex flex-row gap-2 items-center'>
             <Image src="/star.svg" width={22} height={22} alt="star" />
             <p>
-              Overall Impression:{" "}
+              Overall Impression: {" "}
               <span className='text-primary-200 font-bold'>
                 {feedback?.totalScore}
               </span>
