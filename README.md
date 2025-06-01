@@ -1,6 +1,8 @@
 ![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=white)
 ![Next.js](https://img.shields.io/badge/Next.js-15-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-3.4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-11.7.3-FFCA28?style=for-the-badge&logo=firebase&logoColor=white)
+![vapi-ai/web](https://img.shields.io/badge/%40vapi--ai%2Fweb-2.3.0-8E44AD?style=for-the-badge)
 
 # インタビュープラットフォームのデモサイト
 ![](./ホーム画面.png)
@@ -50,7 +52,7 @@ https://interview-platform-mock.vercel.app/
 ![CVA](https://img.shields.io/badge/CVA-0.7.1-4F46E5?style=for-the-badge)  
 
 ### AI・外部サービス
-![Firebase](https://img.shields.io/badge/Firebase-11.7.3-FFCA28?style=for-the-badge)  
+![Firebase](https://img.shields.io/badge/Firebase-11.7.3-FFCA28?style=for-the-badge&logo=firebase&logoColor=white)  
 ![Firebase Admin](https://img.shields.io/badge/Firebase--Admin-13.4.0-F57C00?style=for-the-badge)  
 ![ai](https://img.shields.io/badge/AI-4.3.16-22D3EE?style=for-the-badge)  
 ![ai-sdk/google](https://img.shields.io/badge/%40ai--sdk%2Fgoogle-1.2.18-0EA5E9?style=for-the-badge)  
